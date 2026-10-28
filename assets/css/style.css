@@ -400,6 +400,108 @@ a {
     background: #fff4f3;
 }
 
+.messages-login {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    box-shadow: 0 12px 32px rgba(23, 36, 59, 0.04);
+}
+
+.messages-login h2 {
+    margin-bottom: 1.5rem;
+}
+
+.messages-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.messages-heading form {
+    margin: 0;
+}
+
+.messages-count {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 0;
+    font-weight: 700;
+}
+
+.count-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2rem;
+    min-height: 2rem;
+    padding: 0 0.55rem;
+    border-radius: 999px;
+    color: #fff;
+    background: var(--primary);
+    font-size: 0.9rem;
+}
+
+.button-secondary {
+    border: 1px solid var(--line);
+    color: var(--ink);
+    background: var(--surface);
+}
+
+.button-secondary:hover {
+    color: #fff;
+    background: var(--primary-dark);
+}
+
+.messages-empty {
+    padding: 2rem;
+    border-radius: 16px;
+    color: var(--muted);
+    background: var(--soft);
+    text-align: center;
+}
+
+.messages-table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+}
+
+.messages-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.messages-table th,
+.messages-table td {
+    padding: 0.9rem 1rem;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+}
+
+.messages-table th {
+    color: var(--muted);
+    background: var(--soft);
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.messages-table tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+.message-cell {
+    min-width: 240px;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
 .site-footer {
     padding: 1.5rem 0;
     border-top: 1px solid var(--line);
